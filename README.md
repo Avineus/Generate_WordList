@@ -17,3 +17,16 @@ apt-get install python3-pip pip3 install pyenchant pip3 install nltk pip3 instal
 Open python3 and type below command
 
 import nltk nltk.download('punkt') nltk.download('averaged_perceptron_tagger') nltk.download('universal_tagset') nltk.download('wordnet')
+
+How to execute:
+
+To clean all the word doc list
+./CleanWordList.sh
+
+To generate all the word doc list
+./GetWordList.sh
+
+To compile only specific Word list
+python3 <Mention corresponding .py file>
+
+eg) python3 CVC_Word.py
